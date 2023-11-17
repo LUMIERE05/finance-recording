@@ -12,8 +12,10 @@ This code too help us tracking date when we had income and outcome.
 
 note:
 there are several things that we have to config:
-1. def read_config(filename='config.ini')
+1. you need to configure MySQL Databse first to use database
+   
+2. def read_config(filename='config.ini')
    We need to add file address for config.ini that we use
 
-2. original_image = Image.open("logo")
+3. original_image = Image.open("logo")
    We need to add file address for picture + picture format that we use
